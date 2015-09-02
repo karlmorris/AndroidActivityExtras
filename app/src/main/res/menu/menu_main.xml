@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_camera" android:title="Take Photo"
+        android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera"/>
+    <item android:id="@+id/action_rotate" android:title="Rotate"
+        android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_rotate"/>
+    <item android:id="@+id/action_delete" android:title="Delete"
+        android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"/>
+
+    <item android:id="@+id/action_help" android:title="Help"
+        android:orderInCategory="100" android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_help"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
